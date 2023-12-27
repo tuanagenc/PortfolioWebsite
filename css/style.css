@@ -575,8 +575,8 @@ span {
 /* contact  */
 
 .contact {
-    /* min-height: auto;
-    padding-bottom: 7rem; */
+    min-height: auto;
+    padding-bottom: 7rem;
 }
 
 .contact h2 {
@@ -740,7 +740,7 @@ addeEDIT HAS BEEN MADE .contact form .input-box .input-field input:focus~.focus,
     animation: none;
 }
 
-section:nth-child(add) .animate.scroll,
+section:nth-child(odd) .animate.scroll,
 .footer .animate.scroll {
     background: var(--second-bg-color);
 }
@@ -764,21 +764,23 @@ section:nth-child(add) .animate.scroll,
         font-size: 55%;
     }
 }
+
 @media (max-width: 991px) {
-.header {
-    padding: 2rem 4%;
-}
- section {
-    padding: 10rem 4% 2rem;
-}
+    .header {
+        padding: 2rem 4%;
+    }
 
-.home {
-    padding: 0 4%;
-}
+    section {
+        padding: 10rem 4% 2rem;
+    }
 
-.footer {
-    padding: 2rem 4%;
-}
+    .home {
+        padding: 0 4%;
+    }
+
+    .footer {
+        padding: 2rem 4%;
+    }
 }
 
 @media (max-width:850px) {
