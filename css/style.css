@@ -90,7 +90,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/img/home.jpg') no-repeat;
+    background: url('../img/home.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -741,7 +741,7 @@ addeEDIT HAS BEEN MADE .contact form .input-box .input-field input:focus~.focus,
 }
 
 section:nth-child(odd) .animate.scroll,
-.footer .animate.scroll {
+.footer .animate.scroll,.education .animate.scroll  {
     background: var(--second-bg-color);
 }
 
@@ -804,7 +804,7 @@ section:nth-child(odd) .animate.scroll,
         left: -100%;
         width: 100%;
         padding: 1rem 4%;
-        background: var(--main-color);
+        background: var(--bg-color);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         z-index: 1;
         transition: .25s ease;
